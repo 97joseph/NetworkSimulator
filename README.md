@@ -80,6 +80,8 @@ Creates two processes, the clientEncoder and the clientDecoder. The clientEncode
 input files, encode file contents, and will write data to the socket. The clientDecoder will read
 data from the socket, decode data, and will write the decoded data to a file.
 
+![hbgh](https://user-images.githubusercontent.com/33089347/163659399-1d392a58-aee5-46f3-a268-544361f68b91.PNG)
+
 INPUT TEST FILE (intext.txt)
 
 You are encouraged to test your solution with large data sets. For testing your prototype, you
