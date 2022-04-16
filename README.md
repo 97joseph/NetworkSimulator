@@ -25,6 +25,9 @@ encode the message processed by the threads and will write the resulting data to
 communications between both the client and the server will be encoded according to the format
 defined in the project 3 format.
 
+![start](https://user-images.githubusercontent.com/33089347/163659350-bc305aff-7fae-423b-ae05-a5c4b24f670d.PNG)
+
+
 THE SERVER
 
 Accepts multiple client requests and for each request creates two child processes. These
