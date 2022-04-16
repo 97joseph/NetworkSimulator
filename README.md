@@ -25,6 +25,9 @@ encode the message processed by the threads and will write the resulting data to
 communications between both the client and the server will be encoded according to the format
 defined in the project 3 format.
 
+![start](https://user-images.githubusercontent.com/33089347/163659350-bc305aff-7fae-423b-ae05-a5c4b24f670d.PNG)
+
+
 THE SERVER
 
 Accepts multiple client requests and for each request creates two child processes. These
@@ -76,6 +79,8 @@ THE CLIENT
 Creates two processes, the clientEncoder and the clientDecoder. The clientEncoder will open
 input files, encode file contents, and will write data to the socket. The clientDecoder will read
 data from the socket, decode data, and will write the decoded data to a file.
+
+![hbgh](https://user-images.githubusercontent.com/33089347/163659399-1d392a58-aee5-46f3-a268-544361f68b91.PNG)
 
 INPUT TEST FILE (intext.txt)
 
